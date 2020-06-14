@@ -480,6 +480,10 @@ mark,
   height: auto;
 }
 
+.img-float-right {
+  float: right;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -10210,4 +10214,75 @@ form .row:first-child .floating-label-form-group {
 
 .copyright {
   background-color: #1a252f;
+}
+
+.row {
+  margin: 0 auto;
+  padding: 0;
+  height: 100%;
+  max-width: 1440px;
+}
+
+.hope-content-half-width-right {
+  padding-right: 28px;
+  padding-left: 28px;
+  padding-top: 16px;
+}
+
+.hopesubtitle {
+  font-size: 25px;
+  font-family: Montserrat,Sans-Serif;
+  color: #1e3944;
+  line-height: 37px;
+  font-weight: 400;
+}
+
+.hope.row.logos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 15px auto;
+  position: relative;
+  text-align: center;
+}
+
+.hope.card-block.logo_card {
+  width: 20%;
+  min-width: 230px;
+  height: 100%;
+  padding: 15px 15px 15px 15px;
+}
+
+.card-image {
+  padding-bottom: 80%;
+}
+
+.card-content {
+  text-align: center;
+}
+
+.card-image.image-is-hexagon {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 60%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+p {
+  color: #0b0500;
+  font-family: Merriweather,Sans-Serif;
+  font-size: 16px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  font-weight: 300;
+  line-height: 28px;
+  text-rendering: optimizeLegibility;
 }
